@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    color: #17233D;
+}
+
+a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-left: 32px;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #6FBF44;
+    margin-left: 32px;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px; 
+}
+
+figure {
+    display: inline-block;
+    margin: 163, 0, 0, 121;
+    width: 595.18px;
+    height: 500px;
+}
+
+aside {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-left: 84.82px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    height: 99px;
+    margin-left: 84.82px;
+}
+
+.learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 55px;
+    width: 112px;
+    height: 27px;
+    margin-left: 84.82px;
+}
+
+@media screen and (max-width: 390px){
+    header a {
+        display: none;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.6px;
+        margin-top: 124px;
+        margin: 124px 55px 0px 57px;
+        text-align: center;
+    }
+
+    figure {
+        margin-top: 490px;
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        margin: 490px 39px 22px 39px;
+    }
+
+    button {
+        margin: 17px 15px 0px 284px;
+    }
+
+    p {
+        margin: 29px 43px 0px 43px;
+        text-align: left;
+        width: 304px;
+        height: 165px;
+    }
+
+    .learn-more {
+        text-align: center;
+    }
+}
